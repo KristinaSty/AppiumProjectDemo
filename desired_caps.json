@@ -1,0 +1,62 @@
+{
+  "settings_caps": {
+    "deviceName": "Pixel 6 Pro API 35",
+    "platformVersio": "15",
+    "platformName": "Android",
+    "automationName": "uiautomator2",
+    "appPackage": "com.android.settings",
+    "appActivity": ".homepage.SettingsHomepageActivity"
+  },
+
+  "contacts_caps": {
+    "deviceName": "Pixel 6 Pro API 35",
+    "platformVersion": "15",
+    "platformName": "Android",
+    "automationName": "uiautomator2",
+    "appPackage": "com.google.android.contacts",
+    "appActivity": "com.google.android.apps.contacts.activities.PeopleActivity"
+  },
+
+  "apk_demos_caps": {
+    "deviceName": "Pixel 8 API 29",
+    "platformVersion": "10",
+    "platformName": "Android",
+    "automationName": "uiautomator2",
+    "app": "",
+    "locale": "SE",
+    "language": "en",
+    "uiautomator2ServerInstallTimeout": 40000,
+    "adbExecTimeout": 40000,
+    "sendKeyStrategy": "setValue",
+    "unicodeKeyboard": true,
+    "resetKeyboard": true
+  },
+
+  "drag_and_drop_caps": {
+    "deviceName": "Pixel 8 API 29",
+    "platformVersion": "10",
+    "platformName": "Android",
+    "automationName": "uiautomator2",
+    "appium:appPackage": "com.mobeta.android.demodslv",
+    "appium:appActivity": ".Launcher",
+    "app": "",
+    "locale": "SE",
+    "language": "en",
+    "uiautomator2ServerInstallTimeout": 40000,
+    "adbExecTimeout": 40000,
+    "sendKeyStrategy": "setValue",
+    "unicodeKeyboard": true,
+    "resetKeyboard": true
+  },
+
+  "chrome_browser": {
+    "app": "",
+    "deviceName": "Pixel 6a API 35",
+    "platformName": "Android",
+    "automationName": "UiAutomator2",
+    "browserName": "Chrome",
+    "appium:chromedriverAutodownload": true,
+    "uiautomator2ServerInstallTimeout": 40000,
+    "adbExecTimeout": 40000
+  }
+}
